@@ -17,11 +17,28 @@ textarea {
 
 .center {
   text-align: center;
+  margin-top: 30px;
 }
 
 .center h1 {
   margin-bottom: 10px;
 }
+
+.btn-signup {
+  margin-bottom: 10px;
+}
+
+.container {
+  text-align: center;
+  
+}
+.top-page {
+  display: inline-block;
+ 
+
+}
+
+
 
 /* タイポグラフィ */
 
@@ -52,19 +69,23 @@ p {
 
 /* ヘッダー */
 
+.navbar {
+  background-color: #339999;
+}
+
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #fff;
-  text-transform: uppercase;
+  color: #ffffff;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+  font-style: italic
 }
 
 #logo:hover {
-  color: #fff;
+  color: #dddddd;
   text-decoration: none;
 }
 
